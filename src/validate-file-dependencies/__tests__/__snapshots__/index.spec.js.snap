@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given a valid JSON object with non-stable versions should throw an error naming every package with non-stable version 1`] = `
+"Non stable version found for package package-that-throws: 4.2.0-rc1
+Non stable version found for package and-package-that-throws: 4.2.0-rc.1
+Non stable version found for package other-package-that-throws: 4.0.4-rc.2
+Non stable version found for package another-package-that-throws: ^4.2.9-rc.1
+Non stable version found for package yaptt: 0.10.1-rc.c4f3f999.8+c4f3f999
+Non stable version found for package package-that-throws: 4.2.0-rc1
+Non stable version found for package and-package-that-throws: 4.2.0-rc.1
+Non stable version found for package other-package-that-throws: 4.0.4-rc.2
+Non stable version found for package another-package-that-throws: ^4.2.9-rc.1
+Non stable version found for package yaptt: 0.10.1-rc.c4f3f999.8+c4f3f999"
+`;
+
+exports[`Given an invalid JSON object should throw an error 1`] = `"Invalid package.json format"`;
